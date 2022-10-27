@@ -27,7 +27,7 @@ const agencyc = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I made this page in WordPress, with the help of the theme builder "Flatsome".
+            I made this page in WordPress, with the help of the theme builder Flatsome.
           </p>
           <a
             href='https://simultaneoestudio.com/'

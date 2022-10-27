@@ -27,7 +27,7 @@ const eCommerceSound = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          I built this online shop in WordPress, with the help of the theme builder "Flatsome" and hosted on the company's own server.
+          I built this online shop in WordPress, with the help of the theme builder Flatsome and hosted on the company`&apos;`s own server.
           </p>
           {/* <a
             href='https://github.com/fireclint/crypto-react-firebase'
