@@ -5,6 +5,7 @@ import propertyImg from '../public/assets/projects/eazyroof.png';
 import cryptoImg from '../public/assets/projects/soundadvisors.png'
 import netflixImg from '../public/assets/projects/simultaneo.png'
 import twitchImg from '../public/assets/projects/studio23.png'
+import randomImg from '../public/assets/projects/random.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -41,6 +42,13 @@ const Projects = () => {
             backgroundImg={twitchImg}
             projectUrl='/creativea'
             tech='HTML'
+
+          />
+          <ProjectItem
+            title='Radom User Generator'
+            backgroundImg={randomImg}
+            projectUrl='/random'
+            tech='JavaScript'
 
           />
         </div>
