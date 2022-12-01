@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import cryptoImg from '../public/assets/projects/soundadvisors.png';
+import muyImg from '../public/assets/projects/muy.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const eCommerceSound = () => {
+const muymala = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,11 +13,11 @@ const eCommerceSound = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={cryptoImg}
+          src={muyImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>eCommerce</h2>
+          <h2 className='py-2'>Personal Agency</h2>
           <h3>WordPress</h3>
         </div>
       </div>
@@ -27,21 +27,20 @@ const eCommerceSound = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          I built this online shop in WordPress, with the help of the theme builder Flatsome and hosted on the company`&apos;`s own server.
+            Update of a website created in WordPress for a personal agency.
           </p>
           <a
-            href='https://www.soundadvisors.cl/'
+            href='https://muymalamia.com/'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4'>Site</button>
           </a>
-
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
           <div className='p-2'>
             <p className='text-center font-bold pb-2'>Technologies</p>
-            <div className='grid grid-cols-3 md:grid-cols-1 '>
+            <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> WordPress
               </p>
@@ -56,4 +55,4 @@ const eCommerceSound = () => {
   );
 };
 
-export default eCommerceSound;
+export default muymala;

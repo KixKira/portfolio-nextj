@@ -11,7 +11,7 @@ const resume = () => {
           name='description'
           content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
         />
-        <link rel='icon' href='/fav.png' />
+        <link rel="icon" href="/favicon.png" />
       </Head>
 
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
@@ -48,12 +48,7 @@ const resume = () => {
           </div>
         </div>
         <p className='text-justify'>
-          Higher University Technician in Computer Science with more than 5
-          years of experience in Web Developtment. With analytical and technical
-          skills to offer efficient web solutions, provide insights technicians
-          and experience and build new websites from start to finish. I also
-          have skills to develop applications from scratch, with 2 years of
-          experience and continuous learning.
+          Computer Sciente with more than 5 years of experience in Web Development. With analytical and technical skills to offer efficient web solutions. Thanls to my knowledge as Front-End, I can be part of the process of building a website from start to finish, contributing in every process of the execution and supporting my colleagues.
         </p>
 
         {/* Skills */}

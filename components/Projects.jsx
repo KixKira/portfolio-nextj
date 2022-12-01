@@ -1,11 +1,12 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 import propertyImg from '../public/assets/projects/eazyroof.png';
 import cryptoImg from '../public/assets/projects/soundadvisors.png'
 import netflixImg from '../public/assets/projects/simultaneo.png'
 import twitchImg from '../public/assets/projects/studio23.png'
 import randomImg from '../public/assets/projects/random.png'
+import lpsImg from '../public/assets/projects/lps.png'
+import growersImg from '../public/assets/projects/growers.png'
+import muyImg from '../public/assets/projects/muy.png'
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -28,28 +29,42 @@ const Projects = () => {
             backgroundImg={cryptoImg}
             projectUrl='/ecommerces'
             tech='WordPress'
-
           />
           <ProjectItem
             title='Creative Agency'
             backgroundImg={netflixImg}
             projectUrl='/agencyc'
             tech='WordPress'
-
           />
           <ProjectItem
             title='Creative Agency'
             backgroundImg={twitchImg}
             projectUrl='/creativea'
             tech='HTML'
-
           />
           <ProjectItem
             title='Radom User Generator'
             backgroundImg={randomImg}
             projectUrl='/random'
             tech='JavaScript'
-
+          />
+          <ProjectItem
+            title='Logistics Operations'
+            backgroundImg={lpsImg}
+            projectUrl='/lps'
+            tech='WordPress'
+          />
+          <ProjectItem
+            title='eCommerce'
+            backgroundImg={growersImg}
+            projectUrl='/growers'
+            tech='WordPress'
+          />
+          <ProjectItem
+            title='Personal Agency'
+            backgroundImg={muyImg}
+            projectUrl='/muymala'
+            tech='WordPress'
           />
         </div>
       </div>

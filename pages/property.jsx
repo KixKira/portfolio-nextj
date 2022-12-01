@@ -30,19 +30,12 @@ const property = () => {
             This application was built using React JS and is hosted on Strapi. Users can list properties and even sell/rent their own directly on the platform.
             The user will be able to make an accurate quotation, as it has integration with Google Maps API, and thanks to this, the application will give a value to the property taking into account other properties for sale in a given range.
           </p>
-          {/* <a
-            href='https://github.com/fireclint/property-finder'
-            target='_blank'
-            rel='noreferrer'
-          >
-            <button className='px-8 py-2 mt-4 mr-8'>Code</button>
-          </a> */}
           <a
             href='https://www.eazyroof.com/'
             target='_blank'
             rel='noreferrer'
           >
-            <button className='px-8 py-2 mt-4'>Demo</button>
+            <button className='px-8 py-2 mt-4'>Site</button>
           </a>
         </div>
         <div className='col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4'>
