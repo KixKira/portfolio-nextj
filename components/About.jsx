@@ -9,26 +9,18 @@ const About = () => {
       <div className='max-w-[1240px] m-auto md:grid grid-cols-3 gap-8'>
         <div className='col-span-2'>
           <p className='uppercase text-xl tracking-widest text-[#5651e5]'>
-            About
+            SOBRE MI
           </p>
-          <h2 className='py-4'>Who I Am</h2>
+          <h2 className='py-4'>Quién soy</h2>
           <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications
-            that connect with API’s and other backend technologies. I’m
-            passionate about learning new technologies and understand there is
-            more than one way to accomplish a task. Though I am most proficient
-            in building front-end applications using HTML, CSS, Javascript, and
-            React, I am a quick learner and can pick up new tech stacks as needed.
+            Me especializo en la construcción de aplicaciones móviles de interfaz de usuario front-end que se conectan con las API y otras tecnologías de back-end. Me apasiona aprender nuevas tecnologías y entiendo que hay más de una manera de realizar una tarea. Aunque soy más competente en la construcción de aplicaciones front-end usando HTML, CSS, Javascript y React, soy un aprendiz rápido y puedo aprender nuevas tecnologías según sea necesario.
           </p>
           <p className='py-2 text-gray-600'>
-            I started web developement in 2016 managing multiple e-commerce
-            websites on CMS platforms such as WordPress and Shopify. I have
-            experience working directly with clients and taking mock wireframes
-            all the way to deployed applications.
+            Empecé desarrollo web en 2016, la gestión de múltiples sitios web de comercio electrónico en plataformas CMS como WordPress y Shopify. Tengo experiencia trabajando directamente con clientes y llevando wireframes simulados hasta aplicaciones desplegadas.
           </p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
-              Check out some of my latest projects.
+              Echa un vistazo a algunos de mis últimos proyectos.
             </p>
           </Link>
         </div>

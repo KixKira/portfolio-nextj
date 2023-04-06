@@ -1,0 +1,8 @@
+.contentCard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 5%;
+    padding-top: 100px;
+}

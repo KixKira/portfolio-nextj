@@ -15,9 +15,9 @@ const Skills = () => {
     <div id='skills' className='w-full lg:h-screen p-2'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>
-          Skills
+          Habilidades
         </p>
-        <h2 className='py-4'>What I Can Do</h2>
+        <h2 className='py-4'>Lo que puedo hacer</h2>
         <div className='grid grid-cols-2 lg:grid-cols-4 gap-8'>
           <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
@@ -25,7 +25,7 @@ const Skills = () => {
                 <Image src={Angular} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Angular</h3>
+                <h4>Angular</h4>
               </div>
             </div>
           </div>
@@ -35,7 +35,7 @@ const Skills = () => {
                 <Image src={Aurelia} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Aurelia</h3>
+                <h4>Aurelia</h4>
               </div>
             </div>
           </div>
@@ -45,7 +45,7 @@ const Skills = () => {
                 <Image src={Css} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>CSS</h3>
+                <h4>CSS</h4>
               </div>
             </div>
           </div>
@@ -55,7 +55,7 @@ const Skills = () => {
                 <Image src={Github} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Github</h3>
+                <h4>Github</h4>
               </div>
             </div>
           </div>
@@ -65,7 +65,7 @@ const Skills = () => {
                 <Image src={Html} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>HTML</h3>
+                <h4>HTML</h4>
               </div>
             </div>
           </div>          
@@ -75,7 +75,7 @@ const Skills = () => {
                 <Image src={Javascript} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>JavaScript</h3>
+                <h4>JavaScript</h4>
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@ const Skills = () => {
                 <Image src={NextJS} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>Next</h3>
+                <h4>Next.js</h4>
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ const Skills = () => {
                 <Image src={ReactImg} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>React</h3>
+                <h4>React.js</h4>
               </div>
             </div>
           </div>
@@ -105,7 +105,7 @@ const Skills = () => {
                 <Image src={WordPress} width='64px' height='64px' alt='/' />
               </div>
               <div className='flex flex-col items-center justify-center'>
-                <h3>WordPress</h3>
+                <h4>WordPress</h4>
               </div>
             </div>
           </div>
