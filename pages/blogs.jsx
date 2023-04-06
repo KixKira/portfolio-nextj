@@ -35,7 +35,7 @@ const blogs = ({ posts }) => {
 export default blogs;
 
 export async function getServerSideProps() {
-    const url = 'http://localhost:1337/blogs';
+    const url = 'http://kixkira.com/blogs';
     const response = await fetch(url);
     const responseJson = await response.json();
 

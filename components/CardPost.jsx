@@ -7,7 +7,7 @@ const CardPost = ({ title, description, id, image, date, url}) => {
             <article className="max-w-lg mx-auto">
                 <div className="bg-white shadow-md border-gray-200 rounded-lg max-w-sm mb-5 h-[auto]">            
                     <Image 
-                        src={`http://localhost:1337${image}`}
+                        src={`http://kixkira.com${image}`}
                         width={400}
                         height={400}
                         alt={title}

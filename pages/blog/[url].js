@@ -16,7 +16,7 @@ const Single = ({ single }) => {
                     <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg">
                         <div className="grid mb-4 lg:mb-6 not-format justify-items-center pt-10">
                             <Image
-                                src={`http://localhost:1337${image[0].url}`}
+                                src={`http://kixkira.com${image[0].url}`}
                                 alt={title}
                                 width={500}
                                 height={500}
@@ -36,7 +36,7 @@ export default Single;
 
 export async function getServerSideProps({ query }) {
     const { url } = query;
-    const urlNew = `http://localhost:1337/blogs?url=${url}`;
+    const urlNew = `http://kixkira.com/blogs?url=${url}`;
     const response = await fetch(urlNew);
     const responseJson = await response.json();
 
