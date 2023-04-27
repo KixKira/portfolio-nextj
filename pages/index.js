@@ -6,8 +6,7 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 
 
-export default function Home({ posts }) {
-  console.log(posts);
+export default function Home({ posts, events }) {
   return (
     <div>
       <Head>
