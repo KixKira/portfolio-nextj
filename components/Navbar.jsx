@@ -69,7 +69,7 @@ const Navbar = () => {
               <Link href='/#contact'>Contact</Link>
             </li>
             <li className='ml-10 text-sm uppercase hover:border-b'>
-              <Link href='/blogs'>Blog</Link>
+              <a href='https://blog.kixkira.com' target='_blank' rel='noreferrer'>Blog</a>
             </li>
           </ul>
           {/* Hamburger Icon */}

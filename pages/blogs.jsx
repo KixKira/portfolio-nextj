@@ -1,6 +1,4 @@
 import React from 'react';
-import CardPost from '../components/CardPost';
-import styles from '../styles/CardPost.module.css'
 import Head from 'next/head';
 import { getEvents, getPosts } from '../utils/wordpress'
 import Post from '../components/Post'
