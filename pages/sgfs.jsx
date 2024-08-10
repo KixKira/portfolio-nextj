@@ -1,15 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import lpsImg from "../public/assets/projects/5lps.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
+import sorteos from "../public/assets/projects/8sgfs.png";
 
-const lps = () => {
+const sgfs = () => {
   return (
     <>
       <Head>
-        <title>KixKira | Logistics Operations</title>
+        <title>KixKira | Raffle Information</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="w-full">
@@ -19,11 +19,11 @@ const lps = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={lpsImg}
+            src={sorteos}
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Logistics Operations</h2>
+            <h2 className="py-2">Raffle Information</h2>
             <h3>WordPress</h3>
           </div>
         </div>
@@ -33,15 +33,15 @@ const lps = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              Creation of a website for a logistics centre company. Made in
-              WordPress with plugins to change languages and contact.
+              Informative page to announce new competitions, show past
+              competitions and their winners.
             </p>
             <a
-              href="https://lpsoperaciones.com/"
+              href="https://sorteos.sisprotgf.com/"
               target="_blank"
               rel="noreferrer"
             >
-              <button className="px-8 py-2 mt-4 mr-8">Site</button>
+              <button className="px-8 py-2 mt-4">Site</button>
             </a>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
@@ -63,4 +63,4 @@ const lps = () => {
   );
 };
 
-export default lps;
+export default sgfs;

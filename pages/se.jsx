@@ -1,15 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import lpsImg from "../public/assets/projects/5lps.png";
+import netflixImg from "../public/assets/projects/2simultaneo.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-const lps = () => {
+const agencyc = () => {
   return (
     <>
       <Head>
-        <title>KixKira | Logistics Operations</title>
+        <title>KixKira | Creative Agency</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="w-full">
@@ -19,11 +19,11 @@ const lps = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={lpsImg}
+            src={netflixImg}
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Logistics Operations</h2>
+            <h2 className="py-2">Creative Agency</h2>
             <h3>WordPress</h3>
           </div>
         </div>
@@ -33,15 +33,15 @@ const lps = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              Creation of a website for a logistics centre company. Made in
-              WordPress with plugins to change languages and contact.
+              I made this page in WordPress, with the help of the theme builder
+              Flatsome.
             </p>
             <a
-              href="https://lpsoperaciones.com/"
+              href="https://simultaneoestudio.com/"
               target="_blank"
               rel="noreferrer"
             >
-              <button className="px-8 py-2 mt-4 mr-8">Site</button>
+              <button className="px-8 py-2 mt-4">Site</button>
             </a>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
@@ -63,4 +63,4 @@ const lps = () => {
   );
 };
 
-export default lps;
+export default agencyc;

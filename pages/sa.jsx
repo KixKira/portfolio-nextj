@@ -1,15 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import lpsImg from "../public/assets/projects/5lps.png";
+import cryptoImg from "../public/assets/projects/1soundadvisors.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-const lps = () => {
+const eCommerceSound = () => {
   return (
     <>
       <Head>
-        <title>KixKira | Logistics Operations</title>
+        <title>KixKira | eCommerce</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="w-full">
@@ -19,11 +19,11 @@ const lps = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={lpsImg}
+            src={cryptoImg}
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Logistics Operations</h2>
+            <h2 className="py-2">eCommerce</h2>
             <h3>WordPress</h3>
           </div>
         </div>
@@ -33,23 +33,35 @@ const lps = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              Creation of a website for a logistics centre company. Made in
-              WordPress with plugins to change languages and contact.
+              I built this online shop in WordPress, with the help of the theme
+              builder Flatsome and hosted on the company`&apos;`s own server.
             </p>
             <a
-              href="https://lpsoperaciones.com/"
+              href="https://www.soundadvisors.cl/"
               target="_blank"
               rel="noreferrer"
             >
-              <button className="px-8 py-2 mt-4 mr-8">Site</button>
+              <button className="px-8 py-2 mt-4">Site</button>
             </a>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
             <div className="p-2">
               <p className="text-center font-bold pb-2">Technologies</p>
-              <div className="grid grid-cols-3 md:grid-cols-1">
+              <div className="grid grid-cols-3 md:grid-cols-1 ">
                 <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" /> WordPress
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
+                  <RiRadioButtonFill className="pr-1" /> WooCommerce
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
+                  <RiRadioButtonFill className="pr-1" /> SweetAlert2
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
+                  <RiRadioButtonFill className="pr-1" /> reCAPTCHA
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
+                  <RiRadioButtonFill className="pr-1" /> MailChimp
                 </p>
               </div>
             </div>
@@ -63,4 +75,4 @@ const lps = () => {
   );
 };
 
-export default lps;
+export default eCommerceSound;

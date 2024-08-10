@@ -1,15 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import lpsImg from "../public/assets/projects/5lps.png";
+import chicks from "../public/assets/projects/6chicksx.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-const lps = () => {
+const chicksX = () => {
   return (
     <>
       <Head>
-        <title>KixKira | Logistics Operations</title>
+        <title>KixKira | Exchange Platform</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="w-full">
@@ -19,12 +19,12 @@ const lps = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={lpsImg}
+            src={chicks}
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Logistics Operations</h2>
-            <h3>WordPress</h3>
+            <h2 className="py-2">Exchange Platform</h2>
+            <h3>Aurelia</h3>
           </div>
         </div>
 
@@ -33,14 +33,13 @@ const lps = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              Creation of a website for a logistics centre company. Made in
-              WordPress with plugins to change languages and contact.
+              Design and development of components for the exchange, ensuring
+              optimal functionality and performance. Creation and maintenance of
+              a company blog, providing relevant and up-to-date content for
+              users. Implementation of components in different areas of the
+              product to improve the user experience.
             </p>
-            <a
-              href="https://lpsoperaciones.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href="https://chicksx.com/" target="_blank" rel="noreferrer">
               <button className="px-8 py-2 mt-4 mr-8">Site</button>
             </a>
           </div>
@@ -49,7 +48,10 @@ const lps = () => {
               <p className="text-center font-bold pb-2">Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-1">
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> WordPress
+                  <RiRadioButtonFill className="pr-1" /> Aurelia
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
+                  <RiRadioButtonFill className="pr-1" /> Intercom
                 </p>
               </div>
             </div>
@@ -63,4 +65,4 @@ const lps = () => {
   );
 };
 
-export default lps;
+export default chicksX;

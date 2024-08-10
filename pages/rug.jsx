@@ -1,15 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import lpsImg from "../public/assets/projects/5lps.png";
+import randomImg from "../public/assets/projects/4random.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-const lps = () => {
+const random = () => {
   return (
     <>
       <Head>
-        <title>KixKira | Logistics Operations</title>
+        <title>KixKira | Random User Generator</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="w-full">
@@ -19,12 +19,12 @@ const lps = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={lpsImg}
+            src={randomImg}
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Logistics Operations</h2>
-            <h3>WordPress</h3>
+            <h2 className="py-2">Random User Generator</h2>
+            <h3>HTML / CSS / JS</h3>
           </div>
         </div>
 
@@ -32,16 +32,20 @@ const lps = () => {
           <div className="col-span-4">
             <p>Project</p>
             <h2>Overview</h2>
-            <p>
-              Creation of a website for a logistics centre company. Made in
-              WordPress with plugins to change languages and contact.
-            </p>
+            <p>Random User Generator using the Random Data API.</p>
             <a
-              href="https://lpsoperaciones.com/"
+              href="https://randomusergene.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
-              <button className="px-8 py-2 mt-4 mr-8">Site</button>
+              <button className="px-8 py-2 mt-4 mr-8">Demo</button>
+            </a>
+            <a
+              href="https://github.com/KixKira/random-user-generator"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="px-8 py-2 mt-4">Code</button>
             </a>
           </div>
           <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl py-4">
@@ -49,7 +53,13 @@ const lps = () => {
               <p className="text-center font-bold pb-2">Technologies</p>
               <div className="grid grid-cols-3 md:grid-cols-1">
                 <p className="text-gray-600 py-2 flex items-center">
-                  <RiRadioButtonFill className="pr-1" /> WordPress
+                  <RiRadioButtonFill className="pr-1" /> HTML
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
+                  <RiRadioButtonFill className="pr-1" /> CSS
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
+                  <RiRadioButtonFill className="pr-1" /> Javascript
                 </p>
               </div>
             </div>
@@ -63,4 +73,4 @@ const lps = () => {
   );
 };
 
-export default lps;
+export default random;

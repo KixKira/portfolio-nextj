@@ -1,15 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import lpsImg from "../public/assets/projects/5lps.png";
+import equip from "../public/assets/projects/9sgfe.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import Head from "next/head";
 
-const lps = () => {
+const sgfe = () => {
   return (
     <>
       <Head>
-        <title>KixKira | Logistics Operations</title>
+        <title>KixKira | Competition Information</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <div className="w-full">
@@ -19,11 +19,11 @@ const lps = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={lpsImg}
+            src={equip}
             alt="/"
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Logistics Operations</h2>
+            <h2 className="py-2">Competition Information</h2>
             <h3>WordPress</h3>
           </div>
         </div>
@@ -33,11 +33,11 @@ const lps = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p>
-              Creation of a website for a logistics centre company. Made in
-              WordPress with plugins to change languages and contact.
+              Competition information page, with entry form and integrated
+              click-to-chat.
             </p>
             <a
-              href="https://lpsoperaciones.com/"
+              href="https://equipatecon.sisprotgf.com/"
               target="_blank"
               rel="noreferrer"
             >
@@ -51,6 +51,12 @@ const lps = () => {
                 <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" /> WordPress
                 </p>
+                <p className="text-gray-600 py-2 flex items-center">
+                  <RiRadioButtonFill className="pr-1" /> WhatsApp Business Chat
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
+                  <RiRadioButtonFill className="pr-1" /> Contact Form 7
+                </p>
               </div>
             </div>
           </div>
@@ -63,4 +69,4 @@ const lps = () => {
   );
 };
 
-export default lps;
+export default sgfe;
